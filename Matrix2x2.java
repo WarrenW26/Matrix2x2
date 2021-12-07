@@ -49,18 +49,10 @@ This class models a matrix...
         double three = Math.sin(Math.PI/4);
         double four = Math.cos(Math.PI/4);
 
-        double five = Math.cos(Math.PI/4);
-        double six = Math.sin(Math.PI/4);
-        double seven = Math.sin(Math.PI/4);
-        double eight = Math.cos(Math.PI/4);
-
         Matrix2x2 n = new Matrix2x2(one, - two, three, four);
-        Matrix2x2 o = new Matrix2x2(five, six, seven, eight);
 
         System.out.println("Matrices with one of the sin/cos..." + "\n" + n);
-        System.out.println("Matrices with another of the sin/cos..." + "\n" + o);
         System.out.println("Multiplying above Matrices..." + "\n" + n.multiply(n));
-        System.out.println("Multiplying above Matrices..." + "\n" + o.multiply(o));
 	// write your code here
     }//main(String[] args)
 }//Matrix2x2
